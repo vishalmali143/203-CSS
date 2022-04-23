@@ -1,0 +1,21 @@
+<html>
+<body>
+
+<script>
+
+var d=new Date()
+document.write(d.getHours())
+document.write(".")
+document.write(d.getMinutes()+1)
+document.write(".")
+document.write(d.getSeconds()+"<br>") 
+
+var currentDate=new Date(),
+day=currentDate.getDate(),
+month=currentDate.getMonth()+1,
+year=currentDate.getFullYear();
+document.write(day+"/"+month+"/"+year)
+
+</script>
+</body>
+</html>
